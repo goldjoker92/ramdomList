@@ -1,0 +1,54 @@
+.form-wrapper{
+width: 98%;
+display: flex;
+flex-wrap: wrap;
+margin-left: 1%;
+margin-bottom: 50px;
+margin-top: 5%;
+}
+
+.form-wrapper label{
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form-wrapper input{
+    display: block;
+    width: 400px;
+    height: 35px; 
+    margin: 5px 20px;
+}
+
+.saveBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin-right: 10px;
+    outline: none;
+    color: #fff;
+background-color: #0d6efd;
+border-color: #0d6efd;
+position: absolute;
+top: 15px;
+right: 15px;
+}
+
+@media screen and (max-width:760px) {
+    .form-wrapper{
+        width: 98%;
+        margin-top: 20%;
+    }
+
+    .form-wrapper div{
+        width: 96%;
+        margin: auto;
+    }
+    .form-wrapper input{
+       width: 90%;
+    }   
+}
