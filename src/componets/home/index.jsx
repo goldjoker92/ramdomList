@@ -31,8 +31,8 @@ return(
     <div className='container'>
         <p className='title'>20 Random users</p>
 
-        //chargement
-        
+        {/* Chargement */}
+
         {loading? 
           <div className="loading-wrapper">
         <ReactLoading type={'spokes'}  height={50} width={50} />
